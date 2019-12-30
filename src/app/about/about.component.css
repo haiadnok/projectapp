@@ -1,0 +1,89 @@
+#body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+container{
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+#header{
+    height: 100px;
+    background-color: rgba(171, 180, 184, 0.733);
+    
+}
+#manu{
+    height: 70px;
+    background-color: seagreen;
+}
+#section{
+    height:330px;
+    background-color: lightslategray;
+}
+#sidebar{
+width: 650px;
+height: 130px;
+background-color: rgb(112, 104, 104);
+float: left;
+border-radius: 1em;
+margin-right: 1px;
+}
+#mainbody{
+    width: 130px;
+    height: 130px;
+    background-color:grey;
+float: right    ;
+border-radius: 1em;
+}
+
+.navigation{
+    font-size: 2em;
+    padding-top: 15px ;
+    padding-left: 10.5em;
+    padding-right: 0.2em;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+    margin-bottom: 0.7em;
+    padding: 0.7em;
+    font-size: 0.5em;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+    
+}
+li{
+ padding:0em 1em;   
+}
+a{
+    color: darkblue;
+} 
+li a:hover:not(.active) {
+    background-color:green;
+  }
+  
+  .active {
+    background-color:red;
+  }
+
+#career{
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+#image{
+position: relative;
+top:20px;
+left: 20px;
+float: left;
+}

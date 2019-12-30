@@ -1,0 +1,82 @@
+/* #body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+#header{
+    background-color: antiquewhite;
+    height: 6em;
+}
+#image{
+    border-radius: 10em;
+ border-color: red;
+ position: relative;
+ top: 1.5em;
+ left: 3em;
+ float: left;
+}
+#career{
+    text-align: center;
+    padding: 1em 0em;
+    font-style: italic;
+} */
+h1{
+    font-style: oblique;
+    font-size: 3em;
+    color:rgb(36, 37, 139);
+    text-align: center;
+    background-color: rgb(103, 119, 139);
+    margin: 0em ;
+}
+
+
+#image{
+background-image: url(../assets/max.jpg);
+    height: 40em;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+
+
+}
+a{
+    font-size: 2em;
+    color: rgb(1, 13, 26);
+    margin-left:0.5em
+      
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:red;
+}
+
+.active {
+  background-color: #4CAF50;
+}

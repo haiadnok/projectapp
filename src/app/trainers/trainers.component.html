@@ -1,0 +1,21 @@
+<p>trainers works!</p>
+
+<div class = 'container'>
+    <table class="table table-bordered">
+        <tr>
+            <td>s.no</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Salery</td>
+            <td>Course</td>
+        </tr>
+        <tr *ngFor='let item of trainers;index as i'>
+            <td>{{i+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.salery}}</td>
+            <td>{{item.course}}</td>
+
+        </tr>
+    </table>
+</div>
